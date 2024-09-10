@@ -1,14 +1,13 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import NavBar from "./components/NavBar.vue";
+import Home from "./components/Home.vue";
 </script>
 
 <template>
-  <div>
-    Start project
+  <div class="">
+    <NavBar />
+    <Home />
   </div>
-  <HelloWorld msg="Vite + Vue" />
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
