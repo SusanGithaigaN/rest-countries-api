@@ -5,3 +5,6 @@
 .display-none{
     @apply hidden;
 }
+/* .shadow-large{
+    @apply shadow-lg;
+} */

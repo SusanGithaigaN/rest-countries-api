@@ -4,7 +4,7 @@ import Home from "./components/Home.vue";
 </script>
 
 <template>
-  <div class="text-black dark:text-white-text bg-white dark:bg-dark-blue">
+  <div class="bg-white dark:bg-dark-blue">
     <NavBar />
     <Home />
   </div>
