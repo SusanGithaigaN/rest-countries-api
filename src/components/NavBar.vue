@@ -7,16 +7,16 @@
     <div class="text-left font-bold text-2xl">Where in the world?</div>
     <div class="flex flex-row text-right">
       <img
-        class="dark-icon img-fluid w-5 h-7"
+        class="cursor-pointer dark-icon img-fluid w-5 h-7"
         alt="dark"
         src="../assets/moon-svgrepo-com.svg"
       />
       <img
-        class="light-icon img-fluid w-5 h-7"
+        class="cursor-pointer light-icon img-fluid w-5 h-7"
         alt="dark"
         src="../assets/light-moon-svgrepo-com.svg"
       />
-      <p class="font-semibold pl-1" >Dark Mode</p>
+      <p class="cursor-pointer font-semibold pl-1" >Dark Mode</p>
     </div>
   </div>
 </template>

@@ -23,36 +23,7 @@ export default {
 
 <template>
   <div class="bg-white dark:bg-very-dark-blue py-4 px-6">
-    <div class="flex flex-row justify-between gap-8 pt-4">
-      <!-- search box -->
-      <div
-        class="inline-flex bg-white dark:bg-dark-blue text-dark-gray dark:text-white-text h-12 py-4 px-4 pr-4 md:pr-20 lg:pr-28 max-w-full rounded-md shadow-2xl truncate whitespace-nowrap"
-      >
-        <svg
-          class="w-4 h-6"
-          aria-hidden="true"
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 20 20"
-        >
-          <path
-            stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
-          />
-        </svg>
-        <p class="text-sm md:text-md lg:text-md px-2">Search for a country...</p>
-      </div>
 
-      <!-- filter -->
-      <div
-        class="inline-flex bg-white dark:bg-dark-blue text-dark-gray dark:text-white-text h-12 py-4 px-4 pr-4 md:pr-8 lg:pr-8 max-w-full text-sm md:text-md lg:text-md rounded-md shadow-2xl truncate whitespace-nowrap"
-      >
-        Filter by Region
-      </div>
-    </div>
     <!-- countries -->
     <div
       class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 py-8 dark:text-white-text"
